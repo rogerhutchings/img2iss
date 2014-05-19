@@ -1,19 +1,12 @@
 {
-  "description": "Turns a directory of images into individual issues for a specified repo on GitHub.",
-  "version": "0.0.0",
-  "private": true,
-  "dependencies": {
-    "flatiron": "0.3.11"
-  },
-  "devDependencies": {
-    "cli-easy": "0.1.0",
-    "vows": "0.6.1"
-  },
-  "scripts": {
-    "test": "vows --spec",
-    "start": "node app.js"
-  },
-  "name": "img2iss",
-  "author": "Roger Hutchings",
-  "homepage": "https://github.com/rogerhutchings/img2iss"
+    "description": "Turns a directory of images into individual issues for a specified repo on GitHub.",
+    "version": "0.0.0",
+    "private": true,
+    "name": "img2iss",
+    "author": "Roger Hutchings",
+    "homepage": "https://github.com/rogerhutchings/img2iss",
+    "preferGlobal": "true",
+    "bin": {
+        "img2iss": "bin/img2iss"
+    }
 }
