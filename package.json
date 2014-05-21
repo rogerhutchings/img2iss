@@ -10,8 +10,8 @@
     "img2iss": "bin/img2iss"
   },
   "dependencies": {
-    "commander": "^2.2.0",
-    "nconf": "^0.6.9",
-    "lodash": "^2.4.1"
+    "commander": "2.2.0",
+    "lodash": "2.4.1",
+    "store": "1.3.16"
   }
 }
