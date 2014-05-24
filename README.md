@@ -20,12 +20,12 @@ npm install -g img2iss
 
 ## Setup
 
-Running the app with the -s or --save option will also save the GitHub token and username, and Imgur ID for future use. See Examples.
+Running the app with the `-s` or `--save` option will also save the GitHub token and username, and Imgur ID for future use. See Examples.
 
 ## Usage
 
 ```
-$ img2iss <user/repo> [options]
+$ img2iss [user|org/]<repo> [options]
 ```
 
 ### Options
