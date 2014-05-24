@@ -1,6 +1,6 @@
 {
     "description": "Turns a directory of images into GitHub issues for a given repo, using Imgur to store the images.",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "name": "img2iss",
     "author": {
         "name": "Roger Hutchings",
