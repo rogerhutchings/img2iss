@@ -25,13 +25,12 @@ Running the app with the `-s` or `--save` option will also save the GitHub token
 ## Usage
 
 ```
-$ img2iss [user|org/]<repo> [options]
+$ img2iss [user|org/]<repo> [directory] [options]
 ```
 
 ### Options
 
 ```
--d, --directory <directory>  : Specifies a target directory. Defaults to the current directory
 -g, --github-token <token>   : Set the GitHub token to be used
 -u, --github-user <username> : Set your GitHub username
 -i, --imgur-id <id>          : Set the Imgur ID to be used
