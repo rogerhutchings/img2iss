@@ -20,34 +20,15 @@ npm install -g img2iss
 
 ## Setup
 
-Running the app with the `-s` or `--save` option will also save the GitHub token and username, and Imgur ID for future use. See Examples.
+If you're running img2iss for the first time, it will ask you for your Imgur and GitHub account details in order to generate its access tokens. These details won't be saved.
 
 ## Usage
 
 ```
-$ img2iss [user|org/]<repo> [directory] [options]
-```
-
-### Options
-
-```
--g, --github-token <token>   : Set the GitHub token to be used
--u, --github-user <username> : Set your GitHub username
--i, --imgur-id <id>          : Set the Imgur ID to be used
--s, --save                   : Save GitHub and Imgur options as defaults and exit
+$ img2iss [user|org/]<repo> [directory]
 ```
 
 ## Examples
-
-### Setup
-
-Setup using `foo` as the Imgur ID, `bar` as the GitHub OAuth token, and `rogerhutchings` as the GitHub username:
-
-```
-img2iss -i foo -g bar -u rogerhutchings -s
-```
-
-### Usage
 
 Create issues from all the screenshots in the current working directory for the `rogerhutchings/testrepo` repo:
 
