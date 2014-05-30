@@ -1,4 +1,13 @@
 #!/usr/bin/env node
 
 var app = require('../lib/img2iss');
-app.initialise();
+var async = require('async');
+async.series([
+    function (callback) {
+        // This must call app.initialise() and not pass the method by reference.
+        // If that happens, there is no `this` context.
+        app(callback);
+    }
+], function () {
+    console.log('Done!');
+});
