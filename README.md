@@ -20,7 +20,7 @@ npm install -g img2iss
 
 ## Setup
 
-If you're running img2iss for the first time, it will ask you for your Imgur and GitHub account details in order to generate its access tokens. These details won't be saved.
+If you're running img2iss for the first time, it will ask you for your Imgur ID and GitHub token details. If you ever need to re-enter these, run using `-s` or `--setup`.
 
 ## Usage
 
