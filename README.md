@@ -25,7 +25,7 @@ If you're running img2iss for the first time, it will ask you for your Imgur and
 ## Usage
 
 ```
-$ img2iss [user|org/]<repo> [directory]
+$ img2iss [user|org/]<repo> [directory] [options]
 ```
 
 ## Examples
