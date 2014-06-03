@@ -1,31 +1,37 @@
 {
-    "description": "Turns a directory of images into GitHub issues for a given repo, using Imgur to store the images.",
-    "version": "0.1.0",
-    "name": "img2iss",
-    "author": {
-        "name": "Roger Hutchings",
-        "url": "https://github.com/rogerhutchings"
-    },
-    "homepage": "https://github.com/rogerhutchings/img2iss",
-    "repository" : {
-        "type" : "git",
-        "url" : "https://github.com/rogerhutchings/img2iss"
-    },
-    "bugs": "https://github.com/rogerhutchings/img2iss/issues",
-    "keywords": ["github", "imgur", "issue", "cli"],
-    "license": "GPL-2.0",
-    "preferGlobal": "true",
-    "bin": {
-        "img2iss": "bin/img2iss"
-    },
-    "dependencies": {
-        "commander": "2.2.0",
-        "lodash": "2.4.1",
-        "request": "2.36.0",
-        "async": "0.9.0",
-        "octonode": "0.6.2"
-    },
-    "engines": {
-        "node": "*"
-    }
+  "description": "Turns a directory of images into GitHub issues for a given repo, using Imgur to store the images.",
+  "version": "0.1.0",
+  "name": "img2iss",
+  "author": {
+    "name": "Roger Hutchings",
+    "url": "https://github.com/rogerhutchings"
+  },
+  "homepage": "https://github.com/rogerhutchings/img2iss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rogerhutchings/img2iss"
+  },
+  "bugs": "https://github.com/rogerhutchings/img2iss/issues",
+  "keywords": [
+    "github",
+    "imgur",
+    "issue",
+    "cli"
+  ],
+  "license": "GPL-2.0",
+  "preferGlobal": "true",
+  "bin": {
+    "img2iss": "bin/img2iss"
+  },
+  "dependencies": {
+    "async": "0.9.0",
+    "commander": "2.2.0",
+    "inquirer": "^0.5.1",
+    "lodash": "2.4.1",
+    "octonode": "^0.6.3",
+    "request": "2.36.0"
+  },
+  "engines": {
+    "node": "*"
+  }
 }
