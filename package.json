@@ -23,14 +23,25 @@
   "bin": {
     "img2iss": "bin/img2iss"
   },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
   "dependencies": {
     "async": "0.9.0",
-    "chalk": "^0.4.0",
+    "chalk": "0.4.0",
     "commander": "2.2.0",
-    "inquirer": "^0.5.1",
+    "inquirer": "0.5.1",
     "lodash": "2.4.1",
-    "octonode": "^0.6.3",
+    "octonode": "0.6.3",
     "request": "2.36.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "jit-grunt": "^0.7.0",
+    "time-grunt": "^0.3.2"
   },
   "engines": {
     "node": "*"
