@@ -1,4 +1,6 @@
-# Img2iss
+# Img2iss - Currently borked!
+
+But there's a better replacement on the way...
 
 ## Description
 
