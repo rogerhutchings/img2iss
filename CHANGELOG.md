@@ -1,3 +1,8 @@
+
+* Generate GitHub access token, instead of getting the user to do it
+* Improve error handling
+* Remove own username from GitHub repo string if specified
+
 # 0.2.0
 
 * Add GIF support
