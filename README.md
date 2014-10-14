@@ -1,6 +1,6 @@
 # Img2iss
 
-Img2iss has been retired, and may or may not work. However, I have a new project called [Github Batch](https://github.com/rogerhutchings/github-batch), which will supersede this.
+__Img2iss has been retired, and probably won't work.__ However, I have a new project called [Github Batch](https://github.com/rogerhutchings/github-batch), which will supersede this.
 
 ## Description
 
