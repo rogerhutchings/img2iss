@@ -1,6 +1,6 @@
-# Img2iss - Currently borked!
+# Img2iss
 
-But there's a better replacement on the way...
+Img2iss has been retired, and may or may not work. However, I have a new project called [Github Batch](https://github.com/rogerhutchings/github-batch), which will supersede this.
 
 ## Description
 
